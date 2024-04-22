@@ -4,7 +4,7 @@ I had already previously made a menu which listed all the peds, but I found it a
 
 # All Peds
 
-You can see all the peds in the `html/index.html` file.
+You can see all the peds in the `html/index.html` file.\
 The list comes from this site: https://docs.fivem.net/docs/game-references/ped-models/
 
 # Setup / Installation
