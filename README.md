@@ -9,7 +9,13 @@ The list comes from this site: https://docs.fivem.net/docs/game-references/ped-m
 
 # Setup / Installation
 
-- Just add this resource to your server
+- Just add this resource to your server.
 - And add this line in your server.cfg
-	> `start ped-menu`
+> `start ped-menu`
+
+# Use
+
+- Open the menu with F1 Key by default.
+- Edit the open key with this line in `src/client.lua` file.
+>`RegisterKeyMapping('+pedmenu', 'Open Ped Menu', 'keyboard', 'F1')`
 
