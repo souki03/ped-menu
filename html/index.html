@@ -23,7 +23,7 @@
       }
       function handlePedClick(pedDiv) {
           var pedModel = pedDiv.querySelector('.ped-model').textContent;
-          $.post('https://ped/spawn', JSON.stringify({ ped: pedModel }));
+          $.post('https://ped-menu/spawn', JSON.stringify({ ped: pedModel }));
           // console.log(pedModel);
       }
    </script>
