@@ -19,14 +19,7 @@ $(function () {
             }
         }
     })
-
-    document.onkeyup = function (data) {
-        if (data.which == 27) {
-            display(false)
-            return
-        }
-    };
-
+    
     document.onkeyup = function (data) {
         if (data.which == 27) {
             display(false);
